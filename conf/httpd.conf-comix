@@ -4,7 +4,7 @@ Listen 31257
   AllowEncodedSlashes On
   DirectoryIndex index.php
   AliasMatch ^/welcome.102(.*)$ /var/www/comix-server/welcome.php
-  AliasMatch ^/manga(.*)$ /var/www/comix-server/handler.php
+  AliasMatch ^/comics(.*)$ /var/www/comix-server/handler.php
   
   <Directory "/var/www/comix-server">
     Options Indexes FollowSymLinks
