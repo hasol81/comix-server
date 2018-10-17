@@ -6,7 +6,7 @@
 # Combined with $path in handler.php, 
 # the manga directory's full path will be /volume1/manga.
 ################################################################################
-$dir_name = "manga";
+$dir_name = "comics";
 
 echo $dir_name."\n";
 ?>
